@@ -1,0 +1,37 @@
+{
+    "name": "blank-line-cleaner",
+    "displayName": "Blank Line Cleaner",
+    "description": "Removes consecutive blank lines from documents",
+    "version": "0.0.2",
+    "publisher": "YourPublisherName",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/blank-line-cleaner"
+    },
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:blanklinecleaner.clean"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [{
+            "command": "blanklinecleaner.clean",
+            "title": "Clean Consecutive Blank Lines"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.50.0",
+        "@types/node": "^14.0.0",
+        "typescript": "^4.0.0"
+    }
+}
