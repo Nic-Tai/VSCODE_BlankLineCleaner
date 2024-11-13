@@ -1,6 +1,14 @@
+## Step1 Directly drag and drop the blank-line-cleaner-x.x.x to the cursor plugin as shown in image below:
+![image](https://github.com/user-attachments/assets/1fc3e594-8d84-4bb8-9aef-7bc59eed2afb)
+
+## Step2 At your Cursor search bar, type >Remove, and then it will autofill for you and choose the file as shown in image below:
+![image](https://github.com/user-attachments/assets/96e6ca24-873d-4d67-b982-65644a46918a)
+
+Viola!
+
 # Even Row Remover
 
-A Visual Studio Code extension that removes even-numbered rows from your documents.
+A Visual Studio Code extension that removes even-numbered rows from your documents to specifically solve the Cursor blank row bug.
 
 ## CMD
 
