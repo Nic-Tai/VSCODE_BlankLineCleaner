@@ -1,8 +1,8 @@
 {
     "name": "blank-line-cleaner",
-    "displayName": "Blank Line Cleaner",
-    "description": "Removes consecutive blank lines from documents",
-    "version": "0.0.2",
+    "displayName": "Even Row Remover",
+    "description": "Removes even-numbered rows from documents",
+    "version": "0.0.3",
     "publisher": "YourPublisherName",
     "repository": {
         "type": "git",
@@ -21,7 +21,7 @@
     "contributes": {
         "commands": [{
             "command": "blanklinecleaner.clean",
-            "title": "Clean Consecutive Blank Lines"
+            "title": "Remove Even-Numbered Rows"
         }]
     },
     "scripts": {
